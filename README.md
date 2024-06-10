@@ -125,11 +125,11 @@ const port = 3000;
 
 ``` bash
 const pool = new Pool({
-user: 'postgres',
+user: 'usuario',
 host: 'localhost',
-database: 'postgres',
-password: '022002',
-port: 5433,
+database: 'banco',
+password: 'senha',
+port: 5432,
 });
 ```
 
