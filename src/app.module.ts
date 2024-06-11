@@ -6,11 +6,11 @@ import { VehicleModule } from './vehicle/vehicle.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: '10.233.44.28',
+      host: 'hostname',
       port: 5432,
-      username: 'ADALCSJ', // substitua pelo seu usuário
-      password: 'Y3U8V2GmmR', // substitua pela sua senha
-      database: 'cco2', // substitua pelo nome do seu banco de dados
+      username: 'user', // substitua pelo seu usuário
+      password: 'senha', // substitua pela sua senha
+      database: 'nomeDataBase', // substitua pelo nome do seu banco de dados
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: false, // desative isso em produção
       migrationsRun: false, // desative a execução automática de migrações
